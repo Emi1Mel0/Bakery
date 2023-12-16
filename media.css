@@ -1,0 +1,24 @@
+@media screen and (max-width:600px){
+    #home , #sec1 , #sec2, #sec5 , #sec4{
+        color: dimgrey;
+        width: 100%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px){
+    .item{
+        color: rgb(82, 54, 139);
+        width: 50%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:991px){
+    .item{
+        color: rgb(103, 159, 63);
+        width: 33%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    .item{
+        color: rgb(147, 52, 52);
+        width: 25%;
+    }
+}

@@ -1,0 +1,185 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* home */
+
+#home {
+  height: 100vh;
+  /* vh = 1%
+  so vh strands for viewport height
+  which you are telling
+  the compiler to view the image to the whole page */
+  color: white;
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.navbar {
+  height: 11%;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar h1 {
+  float: left;
+  margin-left: 30px;
+}
+
+.navbar ul {
+  float: right;
+}
+
+.navbar a {
+  margin-right: 25px;
+}
+
+.home-content {
+  padding-top: 5px;
+  margin: auto;
+  font-size: 28px;
+  color: #e8e8e8;
+}
+
+.home-content h1 {
+  font-size: 68px;
+  color: white;
+}
+
+#home button {
+  margin-top: 20px;
+  color: white;
+  padding: 20px 25px;
+  border-radius: 5px;
+  /* font-size: 22px; */
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+#more {
+  background-color: #8e7754;
+  border: 0;
+}
+
+#contact {
+  background-color: transparent;
+  margin-left: 10px;
+  border: white solid 2px;
+}
+
+/* section 1 */
+
+#sec1 {
+  margin-top: 20px;
+  width: 90%;
+  display: inline-block;
+  padding: 40px;
+}
+
+.sec1img {
+  float: left;
+  width: 45%;
+}
+#sec1 img {
+  width: 80%;
+}
+
+#sec1 .about {
+  float: right;
+  width: 45%;
+}
+
+.about {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+#sec1 ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+#sec1 li {
+  margin: 20px 0;
+}
+
+/* section 2 */
+
+#sec2 {
+  margin-top: 20px;
+  width: 90%;
+  display: inline-block;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+#sec2 .sec2txt {
+  float: left;
+  width: 45%;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+#sec2 .sec2img {
+  width: 45;
+}
+
+#sec2 img {
+  width: 50%;
+}
+
+/* section 3 */
+
+.sec3cat {
+  display: inline-block;
+  width: 30%;
+}
+
+.categories img {
+  width: 100%;
+}
+
+/* section 4 */
+
+#sec4 {
+  background-color: #f8f8f8;
+}
+
+/* section 5 */
+
+#sec5 {
+  margin-top: 20px;
+  background-color: #403d38;
+  color: #e8e8e8;
+  width: 90%;
+  display: inline-block;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 40px;
+}
+
+.sec55 {
+  width: 24%;
+  display: inline-block;
+}
+
+.sec55 ul {
+  list-style-type: none;
+}
+
+/* clear tag for every float on the page */
+
+.clr {
+  clear: both;
+}
